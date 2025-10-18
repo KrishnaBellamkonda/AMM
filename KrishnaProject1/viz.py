@@ -52,5 +52,6 @@ ax.text(
 # Legend and display
 ax.legend(loc="lower left", frameon=True)
 plt.tight_layout()
-plt.show()
+plt.savefig("monte_carlo.png")
+#plt.show()
 
